@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #0e1014;
+  color: #e4e5ea;
   margin: 46px 150px;
   font-family: "Inter", sans-serif;
 }
@@ -12,7 +13,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -49,9 +50,13 @@ a {
   line-height: normal;
 }
 
-body .main-block {
-  margin-top: 94;
-  color: #e4e5ea;
+.main-block {
+  padding-top: 94px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 490px;
 }
 
 .main-block .gradient {
@@ -84,7 +89,6 @@ body .main-block {
 }
 
 .first-block .text-block {
-  color: var(--light-text, #e4e5ea);
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -107,12 +111,11 @@ body .main-block {
   height: 61px;
   flex-shrink: 0;
   background-color: #4077f3;
-  color: white;
+  color: inherit;
   float: none;
 }
 
 .footer {
   width: 1440px;
   height: 315px;
-  color: #e4e5ea;
 }
