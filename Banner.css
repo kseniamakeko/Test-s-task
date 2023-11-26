@@ -49,6 +49,11 @@ a {
   line-height: normal;
 }
 
+.callback {
+  padding: 10px 15px;
+  margin-right: 17px;
+}
+
 .main-block {
   padding-top: 94px;
   margin: 0;
