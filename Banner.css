@@ -66,6 +66,19 @@ p {
   height: 60px;
 }
 
+.red-light-ball {
+  width: 311px;
+  height: 311px;
+  position: absolute;
+  right: 70%;
+  transform: translateX(-50%);
+}
+
+.red-light-ball img {
+  width: 311px;
+  height: 311px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -107,6 +120,9 @@ p {
 .purple-light-ball {
   width: 259px;
   height: 259px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
 }
 
 .purple-light-ball img {
@@ -230,6 +246,18 @@ p {
   background-color: #4077f3;
   color: inherit;
   margin-left: 50px;
+}
+
+.red-ball-small {
+  width: 48px;
+  height: 48px;
+  margin-left: 650px;
+  margin-top: 100px;
+}
+
+.red-ball-small img {
+  width: 48px;
+  height: 48px;
 }
 
 .footer {
