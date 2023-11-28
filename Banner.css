@@ -59,6 +59,8 @@ p {
 
 .purple-ball {
   padding-left: 725px;
+  position: absolute;
+  top: 0;
 }
 
 .purple-ball img {
@@ -77,6 +79,9 @@ p {
 .red-light-ball img {
   width: 311px;
   height: 311px;
+  opacity: 0.5;
+  background: #961a1a;
+  filter: blur(196px);
 }
 
 .header {
@@ -129,6 +134,10 @@ p {
   width: 259px;
   height: 259px;
   padding-left: 557px;
+  border-radius: 259px;
+  opacity: 0.5;
+  background: #833ab4;
+  filter: blur(196px);
 }
 
 .red-ball {
