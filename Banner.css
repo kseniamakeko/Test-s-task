@@ -84,7 +84,7 @@ p {
   filter: blur(196px);
 }
 
-.header {
+.desktop-header {
   display: flex;
   justify-content: space-between;
 }
@@ -95,7 +95,11 @@ p {
   align-items: first baseline;
 }
 
-.header_item {
+.header-item {
+  padding: 10px 15px;
+}
+
+.header-item-social {
   padding: 10px 15px;
 }
 
@@ -231,6 +235,13 @@ p {
   margin: 0px;
 }
 
+.thirty {
+  display: none;
+}
+
+.month {
+  display: none;
+}
 .par-column {
   padding-top: 6px;
   padding-bottom: 30px;
@@ -291,8 +302,12 @@ p {
   margin-bottom: 20px;
 }
 
+.columns-2 {
+  display: contents;
+}
+
 .footer-menu-column-2 {
-  width: max-content;
+  flex-basis: auto;
   padding-top: 0;
 }
 
@@ -300,14 +315,26 @@ p {
   margin-bottom: 20px;
 }
 
+.menu-item-2 .vidjet-mobile-variant {
+  display: none;
+}
+
 .footer-menu-column-3 {
-  width: max-content;
+  flex-basis: auto;
   padding-top: 65px;
   padding-left: 52px;
 }
 
 .menu-item-3 {
   margin-bottom: 20px;
+}
+
+.menu-item-3 .mobile-variant {
+  display: none;
+}
+
+.case {
+  display: none;
 }
 
 .h5 {
@@ -349,4 +376,246 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  body {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .desktop-header {
+    display: flex;
+    width: 320px;
+    height: 55px;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .callback {
+    display: none;
+  }
+
+  .header-item-social {
+    display: none;
+  }
+
+  .header-item {
+    padding: 10px 16px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .header-item-add {
+    display: none;
+  }
+
+  .purple-light-ball image {
+    display: none;
+  }
+
+  .purple-light-ball {
+    display: none;
+  }
+
+  .purple-ball {
+    display: none;
+  }
+
+  .purple-ball img {
+    display: none;
+  }
+
+  .red-ball {
+    display: none;
+  }
+
+  .red-ball img {
+    display: none;
+  }
+
+  .red-light-ball {
+    display: none;
+  }
+
+  .red-light-ball img {
+    display: none;
+  }
+
+  .red-ball-small {
+    display: none;
+  }
+
+  .red-ball-small img {
+    display: none;
+  }
+
+  .main-block .first-block h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .main-block .gradient-weblex {
+    background-image: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .main-block {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .first-block {
+    order: -1;
+  }
+
+  .second-block {
+    flex: 1;
+  }
+
+  .second-block .title {
+    text-align: start;
+    width: 272px;
+    height: 44px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0;
+    margin-top: 45px;
+  }
+
+  .item-column p {
+    display: none;
+  }
+
+  .h3 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+  }
+
+  .gradient {
+    background-image: linear-gradient (90deg, #fcb045 36.99%, #fd1d1d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase;
+  }
+
+  .second-block .columns {
+    text-align: left;
+  }
+
+  .thirty {
+    display: block;
+  }
+
+  .vidjet {
+    display: none;
+  }
+
+  .days {
+    display: none;
+  }
+
+  .month {
+    display: block;
+  }
+
+  .item-column {
+    margin-bottom: 14px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .footer {
+    padding-top: 45px;
+    width: 289px;
+    height: 559px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    flex-flow: column wrap;
+  }
+
+  .footer-menu-column-1 {
+    flex: 1;
+  }
+
+  .columns-2 {
+    display: flex;
+  }
+
+  .menu-item-2 .vidjet-mobile-variant {
+    display: block;
+  }
+
+  .menu-item-3 .mobile-variant {
+    display: block;
+  }
+
+  .menu-item-3 .desktop-variant {
+    display: none;
+  }
+
+  .case {
+    display: block;
+  }
+
+  .h5 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-menu-column-4 {
+    text-align: start;
+    width: max-content;
+  }
+
+  .footer-menu-column-4 {
+    padding-left: 0;
+  }
+
+  .footer-item-social {
+    flex-direction: row;
+  }
+
+  .footer-copyright {
+    text-align: left;
+  }
 }
